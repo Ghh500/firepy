@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F I R E P Y - Home</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    
+    <header>
+        <!-- Logo Section -->
+        <div class="logo">
+          <img src="firepy.jpeg" alt="FIREPY Logo">
+        </div>
+    
+        <!-- Centered Header Text -->
+        <h1>F I R E P Y</h1>
+    
+        <!-- Search Bar -->
+        <div class="search-bar">
+          <input type="text" placeholder="Search For Songs 🎵">
+        </div>
+    
+        <!-- Navigation Buttons -->
+        <nav>
+          <a href="New Releases.html">New Releases</a>
+          <a href="aboutus.html">About Us</a>
+          <a href="Genres.html">Genres</a>
+        </nav>
+    
+        <!-- User Profile Icon and Dropdown Menu -->
+        <div class="profile">
+            <div id="profile-icon" class="profile-icon">👤</div>
+            <div id="dropdown-menu" class="dropdown-menu">
+                <div class="menu-item" data-submenu="settings-submenu">Settings</div>
+                <div class="submenu" id="settings-submenu">
+                    <a href="#">Change Theme 
+                        <button id="theme-toggle" class="theme-toggle">Change</button>
+                    </a>
+                </div>
+    
+            <div class="menu-item" data-submenu="privacy-submenu">Privacy</div>
+            <div class="submenu" id="privacy-submenu">
+              <a href="#">Data Privacy</a>
+              <a href="#">Security Settings</a>
+            </div>
+    
+            <div class="menu-item" data-submenu="recent-submenu">Recent</div>
+            <div class="submenu" id="recent-submenu">
+              <a href="#">Recently Played</a>
+              <a href="#">Recently Added</a>
+            </div>
+            <a href="index.html" onclick="logout()">Log Out</a>
+          </div>
+        </div>
+      </header>
+    
+        <div class="container">
+        <!-- Featured Section -->
+        <div class="section">
+            <h2>Featured</h2>
+            <div class="grid">
+                <div class="grid-item">
+                    <a href="top.html"><img src="top hits.jpeg" alt="Album Cover"></a>
+                    <h3>Top Hits</h3>
+                </div>
+                <div class="grid-item">
+                    <a href="drivelist.html"><img src="drive.jpeg" alt="Album Cover"></a>
+                    <h3>Driving playlist</h3>
+                </div>
+                <div class="grid-item">
+                    <a href="mixlist.html"><img src="mixlist.jpg" alt="Album Cover"></a>
+                    <h3>MIX PLAYLIST</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- List Section -->
+        <div class="section">
+            <h2>List</h2>
+            <div class="grid">
+                <div class="grid-item">
+                    <a href="trend.html"><img src="trend.jpg" alt="Album Cover"></a>
+                    <h3>Trending Music</h3>
+                </div>
+                <div class="grid-item">
+                    <a href="bhajan.html"><img src="bhajan.jpeg" alt="Album Cover"></a>
+                    <h3>Bhakti Bhajan</h3>
+                </div>
+                <div class="grid-item">
+                    <a href="punjabi htis.html"><img src="punjabi.jpeg" alt="Album Cover"></a>
+                    <h3>Punjabi Hits</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Artists Section -->
+        <div class="section">
+            <h2>Artists</h2>
+            <div class="grid">
+                <div class="grid-item">
+                    <a href="arjit.html"><img src="arjitp.jpeg" alt="Album Cover"></a>
+                    <h3>Artist - Arjit Singh</h3>
+                </div>
+                <div class="grid-item">
+                    <a href="honeys.html"><img src="Honey Singh.jpg" alt="Album Cover"></a>
+                    <h3>Artist - Honey singh</h3>
+                </div>
+                <div class="grid-item">
+                    <a href="subh1.html"><img src="subh.jpg" alt="Album Cover"></a>
+                    <h3>Artist - Subh</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Top Charts Section -->
+        <div class="section">
+            <h2>Top Charts</h2>
+            <div class="grid">
+                <div class="grid-item">
+                    <a href="topeng.html"><img src="images.jpeg" alt="Album Cover"></a>
+                    <h3>Top English Songs</h3>
+                </div>
+                <div class="grid-item">
+                    <a href="indianhits.html"><img src="indianhit.jpeg" alt="Album Cover"></a>
+                    <h3>Top Indian Songs</h3>
+                </div>
+                <div class="grid-item">
+                    <a href="phonk.html"><img src="phonk.jpg" alt="Album Cover"></a>
+                    <h3>Top Phonk</h3>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    
+  	 <footer>
+        <p>&copy; 2024 F I R E P Y. All Rights Reserved.</p>
+    </footer>
+
+    <script src="homepage.js"></script>
+</body>
+</html>
